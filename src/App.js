@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FirebaseProvider from "./FirebaseProvider/FirebaseProvider";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import About from "./view/About";
+import Contact from "./view/Contact";
+import Courses from "./view/Courses";
+import Features from "./view/Features";
+import Team from "./view/Team";
+import Testimonial from "./view/Testimonial";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <FirebaseProvider>
+        <Header />
+        <About />
+        <Features />
+        <Courses />
+        <Team />
+        <Testimonial />
+        <Contact />
+        <Footer />
+      </FirebaseProvider>
+    </>
   );
 }
 
