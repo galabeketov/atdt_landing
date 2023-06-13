@@ -68,7 +68,7 @@ function Header() {
               <a href="/" className="nav-item nav-link">
                 Fotogaleriya
               </a>
-              <a href="/nashrlar\index.php" className="nav-item nav-link">
+              <a href="/" className="nav-item nav-link">
                 Nashrlar
               </a>
 

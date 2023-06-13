@@ -108,8 +108,11 @@ function Footer() {
             <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
               <p className="m-0">
                 Copyright &copy;
-                <a className="text-white" href="/">
-                  Your Site Name
+                <a
+                  className="text-white"
+                  href="https://www.linkedin.com/in/galimjan-beketov-0b8092224/"
+                >
+                  Beketov Galimjan
                 </a>
                 . All Rights Reserved.
               </p>
@@ -117,8 +120,13 @@ function Footer() {
             <div className="col-md-6 text-center text-md-right">
               <p className="m-0">
                 Designed by
-                <a className="text-white" href="https://htmlcodex.com">
-                  HTML Codex
+                <a
+                  className="text-white"
+                  href="https://www.linkedin.com/in/galimjan-beketov-0b8092224/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Beketov Galimjan
                 </a>
               </p>
             </div>
